@@ -54,8 +54,8 @@ section {
   position: relative;
 }
 
-article {
-  background: #fda9a9;
+article {   
+  background: #1f1f36;
   height:100%;
   display: flex;
   flex-direction: row;
