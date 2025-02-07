@@ -22,6 +22,8 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 300 px; /* Set a height for the container */
+    outline: invert;
+    outline-width: 5 px;
 }
 
   p {
@@ -33,6 +35,7 @@ h1 {
   .flex-container-p {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     height: 300 px; /* Set a height for the container */
 }
+
