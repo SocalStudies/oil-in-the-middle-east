@@ -15,3 +15,10 @@ h1 {
     font-size: bold;
     color: #0deca9;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300 px; /* Set a height for the container */
+  }
