@@ -1,6 +1,6 @@
 body {
-    background-color: #1c1c1c;
-}
+    background-color: #1c1c1c;    
+    font-family: 'K2D';font-size: 22 px;
 
 html {
     scroll-behavior: smooth;
