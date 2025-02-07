@@ -26,12 +26,6 @@ h1 {
     outline-width: 5 px;
 }
 
-  p {
-    margin-left: auto;
-    font-size: large;
-    color: #17cce4;
-  }
-
   .flex-container-p {
     display: flex;
     justify-content: center;
@@ -40,6 +34,7 @@ h1 {
 }
 
 /* new text animation */
+
 
 
 * {
@@ -54,7 +49,7 @@ section {
   position: relative;
 }
 
-article {   
+article {
   background: #1f1f36;
   height:100%;
   display: flex;
@@ -64,13 +59,11 @@ article {
   position: relative;
 }
 
-.h, span {
+p, span {
   font-family:Bungee;
 }
 
-
-
-.h {
+p {
   transition: all ease-out .5s;
   color: transparent;
   text-shadow: 0 0 0px #e78383;
@@ -82,7 +75,7 @@ article {
   cursor: pointer;
 }
 
-.h:before {
+p:before {
   content: "";
   width: 50%;
   position: absolute;
@@ -92,7 +85,7 @@ article {
   transition: transform 0.5s cubic-bezier(1, -0.04, 0, 1.16);
 }
 
-.h span {
+p span {
   display: block;
   position: absolute;
   height: 50%;
@@ -100,48 +93,48 @@ article {
   overflow: hidden;
 }
 
-.h span:first-child:before, p span:last-child:before {
+p span:first-child:before, p span:last-child:before {
   content: attr(data-text);
   color: #fff;
   display: block;
   transition: ease-out all 0.3s -0.1s;
 }
 
-.h span:first-child {
+p span:first-child {
   top: 0;
 }
 
-.h span:last-child {
+p span:last-child {
   bottom: 0;
 }
 
-.h span:first-child:before {
+p span:first-child:before {
   transform: translateY(41px);
 }
 
-.h span:last-child:before {
+p span:last-child:before {
   transform: translateY(-95px)
 }
 
-.h:hover {
+p:hover {
   transition: all ease-out 0s;
   text-shadow: none;
 }
 
-.h:hover:before {
+p:hover:before {
   transform: translateX(42rem);
 }
 
-.h:hover span:first-child:before,
-.h:hover span:last-child:before {
+p:hover span:first-child:before,
+p:hover span:last-child:before {
   transition: ease-out all 0.3s;
   transition-delay: .3s;
 }
 
-.h:hover span:first-child:before {
+p:hover span:first-child:before {
   transform: translateY(0);
 }
 
-.h:hover span:last-child:before {
+p:hover span:last-child:before {
   transform: translateY(-58px);
 }
