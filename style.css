@@ -1,7 +1,11 @@
 body {
-    bgColor: #1c1c1c;
+    background-color: #1c1c1c;
 }
 
-:html {
+html {
     scroll-behavior: smooth;
+}
+
+h1, title {
+    font-size: bold;
 }
