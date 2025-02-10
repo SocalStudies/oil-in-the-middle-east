@@ -71,7 +71,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: right;
-    justify-content: right;
+    justify-content: flex-start;
     margin-bottom: 20px;
 }
 
