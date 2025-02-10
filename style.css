@@ -7,7 +7,7 @@
 
 body {
     font-family: 'K2D', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #160647;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -26,7 +26,7 @@ body {
 .title {
     font-size: 26px;
     font-weight: 600;
-    color: #333;
+    color: #ff00ff;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -34,7 +34,7 @@ body {
 /* Intro paragraph */
 .intro {
     font-size: 14px;
-    color: #555;
+    color: #0000ff;
     margin-bottom: 20px;
 }
 
@@ -49,6 +49,7 @@ body {
 .oil-list, .impact-list {
     list-style-type: none;
     margin-bottom: 20px;
+    color: #9900ff;
 }
 
 .oil-list li, .impact-list li {
@@ -87,7 +88,7 @@ body {
 /* Conclusion */
 .conclusion {
     font-size: 14px;
-    color: #333;
+    color: #0000ff;
     text-align: center;
     margin-top: 40px;
 }
