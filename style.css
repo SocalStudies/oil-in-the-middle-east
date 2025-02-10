@@ -1,41 +1,100 @@
-body {
-    background-color: #1f1f36;    
-    font-family: 'K2D';font-size: 22 px;
+/* Importing custom fonts */
+@import url("https://themes.googleusercontent.com/fonts/css?kit=9oV6R2lcNM7CUUogLO6GsnTzJ3-M7QkzbkNMFpvFmNw");
+
+/* Styling for Lists */
+.lst-kix_bxmhg0hlgs21-0 li:before {
+    content: "\0025cf";
 }
 
-html {
-    scroll-behavior: smooth;
+.lst-kix_cfbnmto5jfv1-0 li:before {
+    content: "\0025cf";
 }
 
-h1 {
-    font-size: bold;
-    color: #0deca9;
+ul.lst-kix_cfbnmto5jfv1-7,
+ul.lst-kix_cfbnmto5jfv1-6,
+ul.lst-kix_cfbnmto5jfv1-8,
+ul.lst-kix_cfbnmto5jfv1-1,
+ul.lst-kix_cfbnmto5jfv1-3,
+ul.lst-kix_cfbnmto5jfv1-2,
+ul.lst-kix_cfbnmto5jfv1-5,
+ul.lst-kix_cfbnmto5jfv1-4,
+ul.lst-kix_bxmhg0hlgs21-2,
+ul.lst-kix_bxmhg0hlgs21-3,
+ul.lst-kix_bxmhg0hlgs21-0,
+ul.lst-kix_bxmhg0hlgs21-1,
+ul.lst-kix_bxmhg0hlgs21-6,
+ul.lst-kix_bxmhg0hlgs21-7,
+ul.lst-kix_bxmhg0hlgs21-4,
+ul.lst-kix_bxmhg0hlgs21-5 {
+    list-style-type: none;
 }
 
-.title {
-    font-size: bold;
-    color: #0deca9;
+/* Text Styling */
+.c15 {
+    font-size: 27pt;
+    color: #ff00ff;
+    font-weight: 700;
+    font-family: "K2D";
 }
 
-.flex-container {
+.c14 {
+    color: #0000ff;
+    font-size: 11pt;
+    font-family: "Arial";
+}
+
+.c5 {
+    color: #9900ff;
+    font-weight: 600;
+    font-size: 11pt;
+    font-family: "K2D";
+}
+
+/* Header and Subheader Styling */
+h3.c13 {
+    font-size: 16pt;
+    color: #434343;
+    font-family: "Arial";
+}
+
+h3.c4 {
+    color: #1beacb;
+    font-weight: 700;
+}
+
+/* Image Gallery */
+.image-gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    height: 300 px;
-    outline: invert;
-    outline-width: 5 px;
+    gap: 20px;
 }
 
-  .flex-container-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300 px; 
-    font-size: x-large;
-  }
-p {
-
- color: #2ef606a8;
- font-size: large;
+.image-gallery img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
 }
-/*something*/
+
+/* Paragraph Styling */
+.c8 {
+    font-size: 11pt;
+    font-family: "Arial";
+    color: #000000;
+}
+
+/* Body Styling */
+body.c11 {
+    background-color: #160647;
+    color: white;
+    padding: 72pt;
+    max-width: 468pt;
+}
+
+/* General Text Styling */
+p, li {
+    font-size: 11pt;
+    font-family: "Arial";
+    color: #000000;
+}
