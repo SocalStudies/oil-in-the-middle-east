@@ -70,8 +70,8 @@ body {
 .image-oil {
     display: flex;
     flex-wrap: wrap;
-    text-align: right;
-    justify-content: flex-start;
+    text-align: left;
+    justify-content: right;
     margin-bottom: 20px;
 }
 
