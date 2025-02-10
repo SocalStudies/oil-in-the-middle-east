@@ -117,4 +117,5 @@ body {
 .head, .text-two {
     display: flex;
     text-align: left;
+    flex-wrap: wrap;
 }
