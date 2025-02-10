@@ -73,10 +73,6 @@ body {
     text-align: left;
     justify-content: right;
     margin-bottom: 20px;
-    border-style: double;
-    border: 15px;
-    border: #333;
-    border-radius: 15px;
 }
 
 .image {
