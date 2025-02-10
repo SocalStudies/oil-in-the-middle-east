@@ -104,17 +104,17 @@ body {
     margin-top: 40px;
 }
 
-.head {
+.head, .head2 {
     font-size: 20px;
     color: #1beacb;
 }
 
-.text-two {
+.text-two, .text-three {
     font-size: 15px;
     color: #0000ff;
 }
 
-.head, .text-two {
+.head, .text-two, .text-three, .head2 {
     display: flex;
     text-align: left;
     flex-wrap: wrap;
