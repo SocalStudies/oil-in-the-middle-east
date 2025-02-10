@@ -68,12 +68,11 @@ body {
 
 /* Image */
 .image-oil {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    text-align: right;
+    justify-content: left;
     margin-bottom: 20px;
-    border: 15px;
     border-style: double;
+    border: 15px;
     border: #333;
     border-radius: 15px;
 }
