@@ -68,7 +68,8 @@ body {
 
 /* Image */
 .image-container {
-    border-radius: 5%;
+    border-style:double;
+    border-radius: 10px;
     text-align: center;
     margin-bottom: 20px;
 }
