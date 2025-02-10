@@ -1,4 +1,8 @@
 /* General styles */
+head {
+background-color: #160647;
+}
+
 * {
     margin: 0;
     padding: 0;
