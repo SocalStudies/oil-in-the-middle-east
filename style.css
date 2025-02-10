@@ -1,100 +1,93 @@
-/* Importing custom fonts */
-@import url("https://themes.googleusercontent.com/fonts/css?kit=9oV6R2lcNM7CUUogLO6GsnTzJ3-M7QkzbkNMFpvFmNw");
-
-/* Styling for Lists */
-.lst-kix_bxmhg0hlgs21-0 li:before {
-    content: "\0025cf";
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.lst-kix_cfbnmto5jfv1-0 li:before {
-    content: "\0025cf";
+body {
+    font-family: 'K2D', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-ul.lst-kix_cfbnmto5jfv1-7,
-ul.lst-kix_cfbnmto5jfv1-6,
-ul.lst-kix_cfbnmto5jfv1-8,
-ul.lst-kix_cfbnmto5jfv1-1,
-ul.lst-kix_cfbnmto5jfv1-3,
-ul.lst-kix_cfbnmto5jfv1-2,
-ul.lst-kix_cfbnmto5jfv1-5,
-ul.lst-kix_cfbnmto5jfv1-4,
-ul.lst-kix_bxmhg0hlgs21-2,
-ul.lst-kix_bxmhg0hlgs21-3,
-ul.lst-kix_bxmhg0hlgs21-0,
-ul.lst-kix_bxmhg0hlgs21-1,
-ul.lst-kix_bxmhg0hlgs21-6,
-ul.lst-kix_bxmhg0hlgs21-7,
-ul.lst-kix_bxmhg0hlgs21-4,
-ul.lst-kix_bxmhg0hlgs21-5 {
-    list-style-type: none;
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Text Styling */
-.c15 {
-    font-size: 27pt;
-    color: #ff00ff;
-    font-weight: 700;
-    font-family: "K2D";
-}
-
-.c14 {
-    color: #0000ff;
-    font-size: 11pt;
-    font-family: "Arial";
-}
-
-.c5 {
-    color: #9900ff;
+/* Title */
+.title {
+    font-size: 26px;
     font-weight: 600;
-    font-size: 11pt;
-    font-family: "K2D";
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-/* Header and Subheader Styling */
-h3.c13 {
-    font-size: 16pt;
-    color: #434343;
-    font-family: "Arial";
+/* Intro paragraph */
+.intro {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
 }
 
-h3.c4 {
+/* Section Title */
+.section-title {
+    font-size: 20px;
     color: #1beacb;
-    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+.oil-list, .impact-list {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.oil-list li, .impact-list li {
+    font-size: 14px;
+    color: #9900ff;
+    margin-bottom: 8px;
+}
+
+/* Image */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Image Gallery */
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
     justify-content: center;
-    gap: 20px;
+    margin-top: 20px;
 }
 
-.image-gallery img {
-    width: auto;
-    max-width: 100%;
+.gallery-img {
+    width: 250px;
     height: auto;
-    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Paragraph Styling */
-.c8 {
-    font-size: 11pt;
-    font-family: "Arial";
-    color: #000000;
-}
-
-/* Body Styling */
-body.c11 {
-    background-color: #160647;
-    color: white;
-    padding: 72pt;
-    max-width: 468pt;
-}
-
-/* General Text Styling */
-p, li {
-    font-size: 11pt;
-    font-family: "Arial";
-    color: #000000;
+/* Conclusion */
+.conclusion {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
 }
