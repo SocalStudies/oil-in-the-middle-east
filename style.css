@@ -103,3 +103,18 @@ body {
     text-align: center;
     margin-top: 40px;
 }
+
+.head {
+    font-size: 20px;
+    color: #1beacb;
+}
+
+.text-two {
+    font-size: 15px;
+    color: #0000ff;
+}
+
+.head, .text-two {
+    display: flex;
+    text-align: left;
+}
