@@ -67,8 +67,8 @@ body {
 }
 
 /* Image */
-.image-container {
-    border-style:double;
+.image-oil {
+    border-style: double;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 20px;
