@@ -32,7 +32,7 @@ body {
 
 /* Title */
 .title {
-    font-size: 26px;
+    font-size: 52px;
     font-weight: 600;
     color: #ff00ff;
     margin-bottom: 20px;
@@ -41,27 +41,27 @@ body {
 
 /* Intro paragraph */
 .intro {
-    font-size: 14px;
+    font-size: 28px;
     color: #0000ff;
     margin-bottom: 20px;
 }
 
 /* Section Title */
 .section-title {
-    font-size: 20px;
+    font-size: 40px;
     color: #1beacb;
     margin-bottom: 10px;
 }
 
 /* Lists */
 .oil-list {
-    font-size: 14px;
+    font-size: 28px;
     margin-bottom: 20px;
     color: #9900ff;
 }
 
 .impact-list {
-    font-size: 14px;
+    font-size: 28px;
     color: #9900ff;
     margin-bottom: 20px;
 }
@@ -96,7 +96,7 @@ body {
 
 /* Conclusion */
 .conclusion {
-    font-size: 14px;
+    font-size: 28px;
     color: #0000ff;
     text-align: center;
     margin-top: 40px;
