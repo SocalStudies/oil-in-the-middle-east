@@ -39,11 +39,11 @@ html, body {
 /* Section Titles */
 .section-title {
     font-size: 22px;
-    color: #39ff14; /* Neon green */
+    color: #06dfe3; /* Neon green */
     margin-top: 20px;
-    border-bottom: 2px solid #00ff7f; /* Electric mint */
+    border-bottom: 2px solid #58c3be; /* Electric mint */
     padding-bottom: 5px;
-    text-shadow: 0 0 8px #39ff14;
+    text-shadow: 0 0 8px #06dfe3;
 }
 
 /* Lists */
