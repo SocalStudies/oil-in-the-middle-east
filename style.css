@@ -104,9 +104,9 @@ html, body {
 /* Conclusion */
 .conclusion {
     font-size: 18px;
-    color: #39ff14; /* Neon green */
+    color: #06dfe3; /* Neon green */
     text-align: center;
     margin-top: 40px;
     font-weight: bold;
-    text-shadow: 0 0 10px #39ff14;
+    text-shadow: 0 0 10px #06dfe3;
 }
