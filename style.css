@@ -1,6 +1,6 @@
 /* General styles */
 html, body {
-    background-color: #3b1e12; /* Warm brown background */
+    background-color: #230777; /* Warm brown background */
     color: #fff4e6; /* Soft cream-colored text */
     font-family: 'K2D', sans-serif;
     margin: 0;
@@ -12,7 +12,7 @@ html, body {
     max-width: 1100px;
     margin: 20px auto;
     padding: 30px;
-    background-color: #5a2a1f; /* Dark reddish-brown */
+    background-color: #160647; /* Dark reddish-brown */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -21,7 +21,7 @@ html, body {
 .title {
     font-size: 34px;
     font-weight: bold;
-    color: #ffb347; /* Warm orange */
+    color: #ff00ff; /* Warm orange */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -29,7 +29,7 @@ html, body {
 /* Intro paragraph */
 .intro {
     font-size: 18px;
-    color: #ffdab9; /* Peach */
+    color: #0000ff; /* Peach */
     line-height: 1.6;
     text-align: justify;
 }
@@ -37,9 +37,9 @@ html, body {
 /* Section Title */
 .section-title {
     font-size: 22px;
-    color: #ff7b00; /* Deep orange */
+    color: #1beacb; /* Deep orange */
     margin-top: 20px;
-    border-bottom: 2px solid #d35400; /* Burnt orange */
+    border-bottom: 2px solid #0de64e; /* Burnt orange */
     padding-bottom: 5px;
 }
 
@@ -82,14 +82,14 @@ html, body {
 /* Text Content */
 .head, .head2 {
     font-size: 22px;
-    color: #ff9248; /* Warm orange */
+    color: #1beacb; /* Warm orange */
     text-align: center;
     margin-top: 20px;
 }
 
 .text-two, .text-three {
     font-size: 17px;
-    color: #ffcc99; /* Soft apricot */
+    color: #12e58d; /* Soft apricot */
     line-height: 1.6;
     text-align: justify;
     padding: 10px 0;
@@ -98,7 +98,7 @@ html, body {
 /* Conclusion */
 .conclusion {
     font-size: 18px;
-    color: #ffefd5; /* Light cream */
+    color: #0a91da; /* Light cream */
     text-align: center;
     margin-top: 40px;
     font-weight: bold;
