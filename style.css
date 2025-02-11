@@ -1,7 +1,7 @@
 /* General styles */
 html, body {
-    background-color: #12053a; /* Warm brown background */
-    color: #fff4e6; /* Soft cream-colored text */
+    background-color: #0a0f29; /* Deep navy background */
+    color: #e0f7fa; /* Light cyan text */
     font-family: 'K2D', sans-serif;
     margin: 0;
     padding: 0;
@@ -12,43 +12,47 @@ html, body {
     max-width: 1100px;
     margin: 20px auto;
     padding: 30px;
-    background-color: #210672; /* Dark reddish-brown */
+    background-color: #11153a; /* Dark blue container */
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
 }
 
 /* Title */
 .title {
     font-size: 34px;
     font-weight: bold;
-    color: #ff00ff; /* Warm orange */
+    color: #00eaff; /* Neon cyan */
     text-align: center;
+    text-shadow: 0 0 10px #00eaff;
     margin-bottom: 20px;
 }
 
 /* Intro paragraph */
 .intro {
     font-size: 18px;
-    color: #0000ff; /* Peach */
+    color: #ff00ff; /* Neon magenta */
     line-height: 1.6;
     text-align: justify;
+    text-shadow: 0 0 5px #ff00ff;
 }
 
-/* Section Title */
+/* Section Titles */
 .section-title {
     font-size: 22px;
-    color: #1beacb; /* Deep orange */
+    color: #39ff14; /* Neon green */
     margin-top: 20px;
-    border-bottom: 2px solid #07acb5; /* Burnt orange */
+    border-bottom: 2px solid #00ff7f; /* Electric mint */
     padding-bottom: 5px;
+    text-shadow: 0 0 8px #39ff14;
 }
 
 /* Lists */
 .oil-list, .impact-list {
     font-size: 17px;
-    color: #7311d5; /* Warm peach */
+    color: #ff00ff; /* Neon pink */
     padding-left: 20px;
     line-height: 1.8;
+    text-shadow: 0 0 5px #ff00ff;
 }
 
 /* Image */
@@ -60,7 +64,7 @@ html, body {
 .image-oil img {
     max-width: 80%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
 }
 
 /* Image Gallery */
@@ -76,30 +80,33 @@ html, body {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
 }
 
 /* Text Content */
 .head, .head2 {
     font-size: 22px;
-    color: #1beacb; /* Warm orange */
+    color: #00eaff; /* Neon cyan */
     text-align: center;
+    text-shadow: 0 0 10px #00eaff;
     margin-top: 20px;
 }
 
 .text-two, .text-three {
     font-size: 17px;
-    color: #12e58d; /* Soft apricot */
+    color: #ff00ff; /* Neon magenta */
     line-height: 1.6;
     text-align: justify;
+    text-shadow: 0 0 5px #ff00ff;
     padding: 10px 0;
 }
 
 /* Conclusion */
 .conclusion {
     font-size: 18px;
-    color: #0a91da; /* Light cream */
+    color: #39ff14; /* Neon green */
     text-align: center;
     margin-top: 40px;
     font-weight: bold;
+    text-shadow: 0 0 10px #39ff14;
 }
