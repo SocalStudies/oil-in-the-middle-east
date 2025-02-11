@@ -39,14 +39,14 @@ html, body {
     font-size: 22px;
     color: #1beacb; /* Deep orange */
     margin-top: 20px;
-    border-bottom: 2px solid #0de64e; /* Burnt orange */
+    border-bottom: 2px solid #07acb5; /* Burnt orange */
     padding-bottom: 5px;
 }
 
 /* Lists */
 .oil-list, .impact-list {
     font-size: 17px;
-    color: #ffbf69; /* Warm peach */
+    color: #7311d5; /* Warm peach */
     padding-left: 20px;
     line-height: 1.8;
 }
