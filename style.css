@@ -1,6 +1,6 @@
 /* General styles */
 html, body {
-    background-color: #230777; /* Warm brown background */
+    background-color: #12053a; /* Warm brown background */
     color: #fff4e6; /* Soft cream-colored text */
     font-family: 'K2D', sans-serif;
     margin: 0;
@@ -12,7 +12,7 @@ html, body {
     max-width: 1100px;
     margin: 20px auto;
     padding: 30px;
-    background-color: #160647; /* Dark reddish-brown */
+    background-color: #210672; /* Dark reddish-brown */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
