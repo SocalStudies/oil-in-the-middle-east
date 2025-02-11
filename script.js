@@ -1,23 +1,23 @@
-// Function to switch tabs
-function showTab(tabId) {
-    // Hide all tab content
-    document.querySelectorAll('.tab-content').forEach(tab => {
-        tab.classList.remove('active');
-    });
+function openTab(event, tabName) {
+    let tabContent = document.getElementsByClassName("tab-content");
+    let tabButtons = document.getElementsByClassName("tab-button");
 
-    // Show selected tab content
-    document.getElementById(tabId).classList.add('active');
+    // Hide all tab contents
+    for (let i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+    }
 
-    // Update active button
-    document.querySelectorAll('.tab-button').forEach(button => {
-        button.classList.remove('active');
-    });
+    // Remove 'active' class from all buttons
+    for (let i = 0; i < tabButtons.length; i++) {
+        tabButtons[i].classList.remove("active");
+    }
 
-    // Highlight active button
-    event.currentTarget.classList.add('active');
+    // Show selected tab and add 'active' class
+    document.getElementById(tabName).style.display = "block";
+    event.currentTarget.classList.add("active");
 }
 
-// Default: Show first tab on load
-document.addEventListener("DOMContentLoaded", () => {
-    document.querySelector(".tab-button").click();
+// Set default tab on page load
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("intro").style.display = "block";
 });
