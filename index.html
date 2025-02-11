@@ -1,68 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Oil in the Middle-East</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oil in the Middle East</title>
+    <title>Oil in the Middle-East</title>
     <link rel="icon" type="image/x-icon" href="oil.jpeg">
     <link href="https://fonts.googleapis.com/css2?family=K2D:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+
+    <!-- Navigation Tabs -->
+    <div class="tab-container">
+        <button class="tab-button active" onclick="openTab(event, 'intro')">Introduction</button>
+        <button class="tab-button" onclick="openTab(event, 'oil-plans')">Oil Plans</button>
+        <button class="tab-button" onclick="openTab(event, 'images')">Images</button>
+    </div>
+
     <div class="container">
-        <p class="title">Oil in the Middle East</p>
-
-        <p class="intro">
-            The Middle East produces about 22.7 million barrels per day or 954.4 million gallons per day. Kuwait and Iraq are close in percentages, with most of their economy coming from oil. However, countries like the UAE and Iran have less than 50% of their oil production going to their economy. Iran created an organization for producing oil called the National Iranian Oil Company (NIOC). Just like Iran the UAE also has an organization called ADNOC this one is the major one with 14 other less important companies to join together as one. Kuwait’s human activities are Sometimes it can be good like they pay 51.3% for services and sometimes it can be bad for people like when they only pay 0.5% for agriculture. Before the major oil production, Saudi Arabia, the UAE, and Iraq were all based on agriculture and farming. However, Iran and Kuwait spent more of their time with industry and riches.
-        </p>
-
-        <div class="image-oil">
+        
+        <!-- Intro Page -->
+        <div id="intro" class="tab-content active">
+            <p class="title">Oil in the Middle East</p>
+            <p class="intro">
+                The Middle East produces about 22.7 million barrels per day or 954.4 million gallons per day. Kuwait and Iraq are close in percentages, with most of their economy coming from oil. However, countries like the UAE and Iran have less than 50% of their oil production going to their economy. Iran created an organization for producing oil called the National Iranian Oil Company (NIOC). Just like Iran the UAE also has an organization called ADNOC this one is the major one with 14 other less important companies to join together as one. Kuwait’s human activities are Sometimes it can be good like they pay 51.3% for services and sometimes it can be bad for people like when they only pay 0.5% for agriculture. Before the major oil production, Saudi Arabia, the UAE, and Iraq were all based on agriculture and farming. However, Iran and Kuwait spent more of their time with industry and riches.
+            </p>
             <img src="image2.png" alt="Oil production image" class="image">
+        </div>
 
-            <h2 class="head">What are the country's plans after a post-oil economy?
-            </h2>
-            <p class="text-two">Iran will continue to produce and export some of their goods like petrochemicals, gas, textiles, cement and different construction materials, fertilizer, caustic soda, food processing, and many other things. The UAE is a very oil-based country but if it were to stop the production of oil the UAE could still produce agriculture, industry, and services. Some things they can sell and trade are aluminum, food, and tons more industry-based products. Iraq’s economy is very oil-based and their economy will crash after a post-oil economy. Saudi Arabia has been creating solar fields and wind turbines to produce energy.
+        <!-- Oil Plans Page -->
+        <div id="oil-plans" class="tab-content">
+            <h2 class="head">What are the country's plans after a post-oil economy?</h2>
+            <p class="text-two">
+                Iran will continue to produce and export some of their goods like petrochemicals, gas, textiles, cement and different construction materials, fertilizer, caustic soda, food processing, and many other things. The UAE is a very oil-based country but if it were to stop the production of oil the UAE could still produce agriculture, industry, and services. Some things they can sell and trade are aluminum, food, and tons more industry-based products. Iraq’s economy is very oil-based and their economy will crash after a post-oil economy. Saudi Arabia has been creating solar fields and wind turbines to produce energy.
             </p>
 
-            <h2 class="head2">What are the impacts of oil production in the Middle East?
-            </h2>
-            <p class="text-three">In the UAE, there are lots of toxic gases being produced which is causing human health to decrease. So oil production is going down. In Iran, oil production is causing pollution in the Persian Gulf leading to mangrove deforestation and soon biodiversity will be reduced. Iraq and Saudi Arabia are struggling with oil polluting their waters, and Kuwait has oil-damaged and burning oil wells
-</p>
+            <h2 class="head2">What are the impacts of oil production in the Middle East?</h2>
+            <p class="text-three">
+                In the UAE, there are lots of toxic gases being produced which is causing human health to decrease. So oil production is going down. In Iran, oil production is causing pollution in the Persian Gulf leading to mangrove deforestation and soon biodiversity will be reduced. Iraq and Saudi Arabia are struggling with oil polluting their waters, and Kuwait has oil-damaged and burning oil wells.
+            </p>
+
+            <h3 class="section-title">Oil Production</h3>
+            <ul class="oil-list">
+                <li>UAE - 4 million barrels</li>
+                <li>Iran - 4 million barrels</li>
+                <li>Kuwait - 3 million barrels</li>
+                <li>Saudi Arabia - 10.8 million barrels</li>
+                <li>Iraq - 1 million barrels</li>
+            </ul>
+
+            <h3 class="section-title">Impact on Economy</h3>
+            <ul class="impact-list">
+                <li>UAE - 33%</li>
+                <li>Iran - less than 10%</li>
+                <li>Kuwait - 97%</li>
+                <li>Saudi Arabia - 60%</li>
+                <li>Iraq - 90%</li>
+            </ul>
         </div>
 
-        <h3 class="section-title">Oil Production</h3>
-        <ul class="oil-list">
-            <li>UAE - 4 million barrels</li>
-            <li>Iran - 4 million barrels</li>
-            <li>Kuwait - 3 million barrels</li>
-            <li>Saudi Arabia - 10.8 million barrels</li>
-            <li>Iraq - 1 million barrels</li>
-        </ul>
-
-        <h3 class="section-title">Impact on Economy</h3>
-        <ul class="impact-list">
-            <li>UAE - 33%</li>
-            <li>Iran - less than 10%</li>
-            <li>Kuwait - 97%</li>
-            <li>Saudi Arabia - 60%</li>
-            <li>Iraq - 90%</li>
-        </ul>
-
-        <p class="conclusion">
-            The five countries in the Middle East are UAE, Iran, Iraq, Kuwait, and Saudi Arabia. And they all produce oil.
-        </p>
-
-        <div class="image-gallery">
-            <img src="image6.png" alt="Image 1" class="gallery-img">
-            <img src="image7.jpg" alt="Image 2" class="gallery-img">
-            <img src="image8.jpg" alt="Image 3" class="gallery-img">
-            <img src="image1.png" alt="Image 4" class="gallery-img">
-            <img src="image3.png" alt="Image 5" class="gallery-img">
-            <img src="image5.png" alt="Image 6" class="gallery-img">
-            <img src="image4.png" alt="Image 7" class="gallery-img">
-            <img src="image2.png" alt="Image 8" class="gallery-img">
+        <!-- Images Page -->
+        <div id="images" class="tab-content">
+            <h3 class="section-title">Image Gallery</h3>
+            <div class="image-gallery">
+                <img src="image6.png" alt="Image 1" class="gallery-img">
+                <img src="image7.jpg" alt="Image 2" class="gallery-img">
+                <img src="image8.jpg" alt="Image 3" class="gallery-img">
+                <img src="image1.png" alt="Image 4" class="gallery-img">
+                <img src="image3.png" alt="Image 5" class="gallery-img">
+                <img src="image5.png" alt="Image 6" class="gallery-img">
+                <img src="image4.png" alt="Image 7" class="gallery-img">
+                <img src="image2.png" alt="Image 8" class="gallery-img">
+            </div>
         </div>
+        
     </div>
+
 </body>
 </html>
