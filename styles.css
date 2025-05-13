@@ -19,7 +19,7 @@ body {
     max-width: 1100px;
     margin: 20px auto;
     padding: 30px;
-    background-color: #11153a;
+    background-color: #120640;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
 }
@@ -28,10 +28,10 @@ body {
 .title {
     font-size: 30px;
     font-weight: 600;
-    color: #ff00ff;
+    color: #B150F2;
     margin-bottom: 20px;
     text-align: center;
-    text-shadow: 0 0 10px #ff00ff;
+    text-shadow: 0 0 10px #B150F2;
 }
 
 /* Intro paragraph */
@@ -44,21 +44,21 @@ body {
 /* Section Title */
 .section-title {
     font-size: 22px;
-    color: #06dfe3;
+    color: #514BF2;
     margin-bottom: 10px;
-    text-shadow: 0 0 8px #06dfe3;
+    text-shadow: 0 0 8px #514BF2;
 }
 
 /* Lists */
 .oil-list, .impact-list {
     font-size: 16px;
     margin-bottom: 20px;
-    color: #9900ff;
+    color: #B150F2;
     list-style-type: none;
 }
 
 .oil-list li, .impact-list li {
-    background: rgba(0, 238, 255, 0.2);
+    background: #120759;
     padding: 8px;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -91,7 +91,7 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+    box-shadow: 0 0 10px #514BF2;
     transition: transform 0.3s ease;
 }
 
@@ -102,7 +102,7 @@ body {
 /* Conclusion */
 .conclusion {
     font-size: 16px;
-    color: #00eaff;
+    color: #514BF2;
     text-align: center;
     margin-top: 40px;
 }
@@ -112,15 +112,15 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #120759;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 }
 
 .tab-button {
-    background-color: #00eaff;
-    color: #0a0f29;
+    background-color: #514BF2;
+    color: #120640;
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -129,18 +129,18 @@ body {
     border-radius: 5px;
     transition: 0.3s;
     font-weight: bold;
-    text-shadow: 0 0 5px #00eaff;
+    text-shadow: 0 0 5px #514BF2;
 }
 
 .tab-button:hover {
-    background-color: #06dfe3;
-    color: #0a0f29;
-    text-shadow: 0 0 5px #06dfe3;
+    background-color: #514BF2;
+    color: #120640;
+    text-shadow: 0 0 5px #514BF2;
 }
 
 .tab-button.active {
-    background-color: #ff00ff;
-    text-shadow: 0 0 8px #ff00ff;
+    background-color: #B150F2;
+    text-shadow: 0 0 8px #B150F2;
 }
 
 /* Tab Content */
@@ -157,13 +157,13 @@ body {
 /* Headings */
 .head, .head2 {
     font-size: 22px;
-    color: #1beacb;
-    text-shadow: 0 0 5px #1beacb;
+    color: #514BF2;
+    text-shadow: 0 0 5px #514BF2;
 }
 
 .text-two, .text-three {
     font-size: 16px;
-    color: #00eaff;
+    color: #514BF2;
 }
 
 /* Fade Effect */
@@ -175,7 +175,7 @@ body {
 /* General Styles */
 body {
     font-family: 'K2D', sans-serif;
-    background-color: #111;
+    background-color: #120640;
     color: white;
     text-align: center;
     margin: 0;
@@ -184,7 +184,7 @@ body {
 
 /* Tabs */
 .tab-container {
-    background-color: #222;
+    background-color: #120640;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -203,11 +203,11 @@ body {
 }
 
 .tab-button.active {
-    background-color: #005f5f;
+    background-color: #F2784B;
 }
 
 .tab-button:hover {
-    background-color: #008080;
+    background-color: #F2784B;
 }
 
 /* Tab Content */
